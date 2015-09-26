@@ -1,0 +1,36 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "Contact management",
+  "license": "MIT",
+  "keywords": [
+    "contact",
+    "contacts",
+    "vcf"
+  ],
+  "main": "lib/contacts",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "dependencies": {
+    "yargs": "~3.26.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/node-contacts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-contacts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/node-contacts/issues"
+  },
+  "bin": {
+    "contacts": "bin/contacts.js"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
